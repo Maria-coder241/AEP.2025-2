@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fórum do Professor</title>
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"crossorigin="anonymous">
+  <link rel="icon" type="image/png"href="https://tse2.mm.bing.net/th/id/OIP.l5bjR_JqjI3FPcCuWVuU_QHaHa?cb=12&rs=1&pid=ImgDetMain&o=7&rm=3">
+  <style>
+    body {
+      background-color: #f7efe5;
+    }
+    .container {
+      max-width: 900px;
+    }
+    .card {
+      border-radius: 15px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      margin-bottom: 1rem;
+      padding: 1rem 1.5rem;
+    }
+    .titulo {
+      font-weight: bold;
+      color: #333;
+    }
+    .subtitulo {
+      color: #777;
+      font-size: 0.9rem;
+    }
+    .mensagem {
+      margin-top: 0.5rem;
+      font-size: 0.95rem;
+      color: #555;
+    }
+    .btn {
+      transition: 0.2s;
+      margin-left: 5px;
+    }
+    .btn:hover {
+      transform: scale(1.05);
+    }
+    .topo h1 {
+      color: #007bff;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+  <div class="container py-5">
+    <div class="text-center topo mb-4">
+      <h1>Fórum do Professor</h1>
+      <h5 class="text-secondary">Mensagens recebidas dos alunos</h5>
+    </div>
+
+    <div class="card">
+      <div class="titulo">Aluno: João Silva - Matemática</div>
+      <div class="subtitulo">Enviado: 20/10/2025</div>
+      <div class="mensagem">Professor, não entendi a resolução da última questão da tarefa.</div>
+      <div class="mt-2">
+        <button class="btn btn-success" >Responder</button>
+        <button class="btn btn-secondary" >Marcar como lida</button>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="titulo">Aluno: Maria Souza - Português</div>
+      <div class="subtitulo">Enviado: 19/10/2025</div>
+      <div class="mensagem">Professora, poderia explicar a diferença entre substantivo e adjetivo?</div>
+      <div class="mt-2">
+        <button class="btn btn-success">Responder</button>
+        <button class="btn btn-secondary" >Marcar como lida</button>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="titulo">Aluno: Lucas Pereira - História</div>
+      <div class="subtitulo">Enviado: 18/10/2025</div>
+      <div class="mensagem">Professor, qual é a importância da Revolução Industrial?</div>
+      <div class="mt-2">
+        <button class="btn btn-success" >Responder</button>
+        <button class="btn btn-secondary" >Marcar como lida</button>
+      </div>
+    </div>
+
+    <div class="text-center mt-4">
+      <button type="button" class="btn btn-secondary px-4" onclick="window.location.href='PaginaProfessor.html'">Voltar à Tela Inicial</button>
+    </div>
+  </div>
+
+</body>
+</html>
