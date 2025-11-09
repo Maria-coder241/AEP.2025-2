@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tarefas Escolares</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+  <link rel="icon" type="image/png" href="https://tse2.mm.bing.net/th/id/OIP.l5bjR_JqjI3FPcCuWVuU_QHaHa?cb=12&rs=1&pid=ImgDetMain&o=7&rm=3">
+
+  <style>
+    body {
+      background-color: #f7efe5;
+      font-family: "Poppins", sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      margin: 0;
+    }
+
+    .container {
+      max-width: 700px;
+      background-color: white;
+      padding: 40px;
+      border-radius: 20px;
+      box-shadow: 0 6px 18px rgba(0,0,0,0.1);
+      text-align: center;
+    }
+
+    .card {
+      border-radius: 12px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+      margin-bottom: 1rem;
+      padding: 1rem 1.5rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background-color: #ffffff;
+    }
+
+    .titulo {
+      font-weight: bold;
+      color: #333;
+      font-size: 1.1rem;
+    }
+
+    .subtitulo {
+      color: #777;
+      font-size: 0.9rem;
+    }
+
+    .btn-abrir {
+      background-color: #007bff;
+      border: none;
+      color: white;
+      font-weight: 600;
+      border-radius: 20px;
+      padding: 6px 18px;
+      transition: 0.3s;
+    }
+
+    .btn-abrir:hover {
+      background-color: #0069d9;
+      transform: scale(1.05);
+    }
+
+    .btn-voltar {
+      background-color: #6c757d;
+      border: none;
+      color: white;
+      font-weight: 500;
+      border-radius: 20px;
+      padding: 8px 24px;
+      transition: 0.3s;
+      margin-top: 20px;
+    }
+
+    .btn-voltar:hover {
+      background-color: #5a6268;
+      transform: scale(1.05);
+    }
+
+    .topo h1 {
+      color: #007bff;
+      font-weight: bold;
+    }
+
+    .topo h5 {
+      color: #666;
+      margin-bottom: 30px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="text-center topo mb-4">
+      <h1>Suas Tarefas Escolares</h1>
+      <h5>Organize suas atividades</h5>
+    </div>
+
+    <div class="card">
+      <div>
+        <div class="titulo">Tarefa de Matemática</div>
+        <div class="subtitulo">Sem data de entrega</div>
+      </div>
+      <button class="btn-abrir">Abrir</button>
+    </div>
+
+    <div class="card">
+      <div>
+        <div class="titulo">Tarefa de Português</div>
+        <div class="subtitulo">Sem data de entrega</div>
+      </div>
+      <button class="btn-abrir">Abrir</button>
+    </div>
+
+    <div class="card">
+      <div>
+        <div class="titulo">Tarefa de História</div>
+        <div class="subtitulo">Sem data de entrega</div>
+      </div>
+      <button class="btn-abrir">Abrir</button>
+    </div>
+
+    <div class="card">
+      <div>
+        <div class="titulo">Tarefa de Geografia</div>
+        <div class="subtitulo">Sem data de entrega</div>
+      </div>
+      <button class="btn-abrir">Abrir</button>
+    </div>
+
+    <div class="card">
+      <div>
+        <div class="titulo">Tarefa de Ciências</div>
+        <div class="subtitulo">Sem data de entrega</div>
+      </div>
+      <button class="btn-abrir">Abrir</button>
+    </div>
+      <button type="button" class="btn-voltar" onclick="window.location.href='PaginaPrincipal.html'">Voltar à Tela Inicial</button>
+
+  </div>
+</body>
+</html>
