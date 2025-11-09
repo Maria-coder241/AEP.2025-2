@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Escola Municipal Profa. Agmar dos Santos</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+  <link rel="icon" type="image/png" href="https://tse2.mm.bing.net/th/id/OIP.l5bjR_JqjI3FPcCuWVuU_QHaHa?cb=12&rs=1&pid=ImgDetMain&o=7&rm=3">
+
+  <style>
+    body {
+      background-color: #f7efe5;
+      margin: 0;
+      height: 100vh;
+      display: flex;
+    }
+
+    #wrapper {
+      display: flex;
+      width: 100%;
+      height: 100vh;
+    }
+
+    #sidebar-wrapper {
+      background-color: #f8f9fa;
+      width: 260px;
+      border-right: 2px solid #ddd;
+      border-radius: 15px;
+    }
+
+    .sidebar-heading {
+      font-weight: bold;
+      font-size: 1.3rem;
+      text-align: center;
+      padding: 1rem 0;
+    }
+
+    .content-area {
+      flex: 1;
+      padding: 30px;
+      overflow-y: auto;
+    }
+
+    .row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1.5rem;
+      justify-content: center;
+    }
+
+    .col-md-4 {
+      display: flex;
+      flex: 1 1 calc(33% - 1.5rem); 
+      max-width: 100%;
+    }
+
+    .card {
+      border-radius: 15px;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+      transition: transform 0.2s;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      width: 100%;
+      padding: 1rem;
+    }
+
+    .btn-matematica {
+      background-color: #6a5acd;
+      border: none;
+    }
+    .btn-matematica:hover {
+      background-color: #5848c2;
+    }
+
+    .btn-portugues {
+      background-color: #ff6b81;
+      border: none;
+    }
+    .btn-portugues:hover {
+      background-color: #e65b70;
+    }
+
+    .btn-historia {
+      background-color: #ffa94d;
+      border: none;
+    }
+    .btn-historia:hover {
+      background-color: #ff922b;
+    }
+
+    .btn-geografia {
+      background-color: #38b2ac;
+      border: none;
+    }
+    .btn-geografia:hover {
+      background-color: #319795;
+    }
+
+    .btn-ciencias {
+      background-color: #4dabf7;
+      border: none;
+    }
+    .btn-ciencias:hover {
+      background-color: #339af0;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="d-flex" id="wrapper">
+
+    <div class="border-end bg-light" id="sidebar-wrapper">
+      <div class="sidebar-heading">EducaMaringá</div>
+      <div class="list-group list-group-flush">
+        <a href="tarefas2.html" class="list-group-item list-group-item-action">Tarefas</a>
+        <a href="PaginaPrincipal.html" class="list-group-item list-group-item-action text-white bg-primary rounded mt-3">TELA INICIAL</a>
+      </div>
+    </div>
+
+    <div class="content-area">
+      <h1 class="text-primary mb-4">Escola Municipal Profa. Agmar dos Santos</h1>
+      <p>Acesse suas matérias:</p>
+
+      <div class="container mt-4">
+        <div class="row text-center">
+
+          <div class="col-md-4 col-lg-2 mb-3">
+            <div class="card p-3 h-100">
+              <h5 class="card-title">Matemática</h5>
+              <p>Aprenda sobre operações, equações, frações, porcentagem e muito mais com materiais explicativos e vídeos didáticos</p>
+              <a href="#" class="btn btn-matematica w-100 text-white">Entrar</a>
+            </div>
+          </div>
+
+          <div class="col-md-4 col-lg-2 mb-3">
+            <div class="card p-3 h-100">
+              <h5 class="card-title">Português</h5>
+              <p>Estude gramática, interpretação de texto, redação e ortografia com conteúdos simples e vídeos interativos</p>
+              <a href="#" class="btn btn-portugues w-100 text-white">Entrar</a>
+            </div>
+          </div>
+
+          <div class="col-md-4 col-lg-2 mb-3">
+            <div class="card p-3 h-100">
+              <h5 class="card-title">História</h5>
+              <p>Explore fatos importantes do Brasil e do mundo, conheça civilizações antigas e os principais acontecimentos históricos</p>
+              <a href="#" class="btn btn-historia w-100 text-white">Entrar</a>
+            </div>
+          </div>
+
+          <div class="col-md-4 col-lg-2 mb-3">
+            <div class="card p-3 h-100">
+              <h5 class="card-title">Geografia</h5>
+              <p>Entenda sobre continentes, países, clima, relevo, população e os fenômenos que moldam o planeta Terra</p>
+              <a href="#" class="btn btn-geografia w-100 text-white">Entrar</a>
+            </div>
+          </div>
+
+          <div class="col-md-4 col-lg-2 mb-3">
+            <div class="card p-3 h-100">
+              <h5 class="card-title">Ciências</h5>
+              <p>Descubra o mundo da biologia, química e física com experimentos simples, curiosidades e explicações em vídeo</p>
+              <a href="#" class="btn btn-ciencias w-100 text-white">Entrar</a>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+  </div>
+</body>
+</html>
